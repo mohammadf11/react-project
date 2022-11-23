@@ -1,0 +1,69 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.mainHeader {
+  flex: 1;
+  padding: 30px 20px;
+  margin: 0px auto;
+  background-color: rgba(128, 128, 128, 0.432);
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-size: 24px;
+  gap: 20px;
+}
+.mainHeader i {
+  color: rgb(255, 208, 0);
+  cursor: pointer;
+}
+.mainAuthorInfo {
+  flex: 1;
+  padding: 10px 20px;
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 90%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mainAuthorInfo span {
+  font-size: 24px;
+  color: white;
+}
+.mainAuthorInfo img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.mainImg {
+  flex: 4;
+  width: 93%;
+  height: 100%;
+  background-image: url('../../img/download.jpeg');
+  background-size: cover;
+  margin: 0px auto;
+}
+
+.mainImg img {
+  object-fit: cover;
+}

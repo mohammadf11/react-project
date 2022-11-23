@@ -1,0 +1,121 @@
+.feed {
+  width: 90%;
+  height: auto;
+  padding: 5px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 25px 5px rgba(69, 69, 69, 0.13);
+  padding: 50px 20px;
+}
+.feedWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.feedWrapperRight {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.feedProfile {
+}
+.feedArchiveNews {
+}
+.feedSiteLink {
+}
+.feedWrapperCenter {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+}
+.feedWrapperLeft {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.feedPageLinks {
+  flex: 1;
+}
+
+.feedImageLinks {
+  flex: 5;
+}
+.feedBanner {
+  flex: 4;
+}
+.feedBanner img {
+  width: 100%;
+  height: 100%;
+}
+
+.feedWrapperCenterNews {
+  flex: 6;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.feedWrapperCenterNewsTop {
+  flex: 6;
+}
+.feedWrapperCenterNewsBottom {
+  flex: 4;
+  display: flex;
+  width: 93%;
+  margin: 10px auto;
+  overflow: hidden;
+  gap: 10px;
+}
+.feedWrapperCenterArchiveNews {
+  flex: 3;
+  display: flex;
+  box-shadow: 0px 0px 25px 5px rgba(69, 69, 69, 0.13);
+  gap: 30px;
+}
+.feedWrapperCenterArchiveNewsRight {
+  flex: 4;
+  border: 2px solid rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+  margin: 0px 15px;
+  padding: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.feedWrapperCenterArchiveNewsLeft {
+  flex: 2;
+}
+
+.feedWrapperCenterArchiveNewsLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+  margin: 0px 15px;
+  padding: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.feedWrapperCenterArchiveNewsLeft .title {
+  color: #444;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.feedWrapperCenterArchiveNewsLeft .body {
+  color: #222;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.feedWrapperCenterNewsBottom {
+}

@@ -1,0 +1,15 @@
+.imageLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.imageLink img{
+    width: 100%;
+    height: 120px;
+}
+
+.imageLink span{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "roya";
+    src: url("../public/font/700.ttf") ;
+  }
+
+  * {
+    font-family: 'roya';
+    direction: rtl;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }

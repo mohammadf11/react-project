@@ -1,0 +1,14 @@
+.pageLink{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.pageLink span{
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+}
+
+.pageLink i{
+    color: rgb(255, 208, 0);
+}

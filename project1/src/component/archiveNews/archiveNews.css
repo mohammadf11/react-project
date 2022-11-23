@@ -1,0 +1,13 @@
+.archiveNews {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+
+.archiveNewsTitle {
+  padding: 20px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #999;
+}

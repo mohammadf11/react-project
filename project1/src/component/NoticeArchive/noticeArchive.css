@@ -1,0 +1,24 @@
+.noticeArchive{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.noticeArchiveTitle{
+    padding: 20px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #999;
+    
+}
+.noticeArchiveBox{
+    display: flex;
+    gap: 10px;
+}
+.noticeArchiveLeft,.noticeArchiveRight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
